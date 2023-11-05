@@ -1,0 +1,14 @@
+{
+    "builds": [
+        {
+            "src":"desain.py",
+            "use":"@vercel/python"
+        }
+    ],
+    "routes":[
+        {
+            "src":"/(.*)",
+            "dest":"desain.py"
+        }
+    ]
+}
